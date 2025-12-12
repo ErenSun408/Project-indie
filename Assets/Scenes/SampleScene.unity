@@ -679,6 +679,7 @@ GameObject:
   - component: {fileID: 1563670507}
   - component: {fileID: 1563670506}
   - component: {fileID: 1563670505}
+  - component: {fileID: 1563670509}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -1049,6 +1050,27 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1563670509
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1563670504}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cedc93d6a74b4604c8de4c2a1ecd460a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Namespace: ProjectIndie
+  ScriptName: Player
+  ScriptsFolder: Assets/Scripts/Game
+  GeneratePrefab: 0
+  PrefabFolder: Assets/Art/Prefab
+  ArchitectureFullTypeName: 
+  ViewControllerFullTypeName: 
+  Grid: {fileID: 1778975944}
+  Tilemap: {fileID: 692406735}
 --- !u!1 &1643466953
 GameObject:
   m_ObjectHideFlags: 0
